@@ -90,5 +90,4 @@ let galleryLB = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
-galleryLB.captionsData = 'alt';
-galleryLB.on('show.simplelightbox', function () {});
+galleryLB.on('show.simplelightbox');
